@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #633c17;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #c58505;
+    color: #b8a779;
+}
+
+.carousel-item img {
+    height: 200px; 
+    object-fit: cover;
+}
+
+.logo {
+    width: 75px;
+    height: 50px;
+}
+
+.cor-de-fundo {
+    background-color: #633c17;
+}
+
+#cor-de-fundo1 {
+    background-color: #d8cfb6;
+}
+
+#cor-de-fundo2,
+.bg-marron {
+    background-color: #a56f3d;
+}
+
+#cor-de-fundo3,
+.bg-dourado-claro {
+    background-color: #b8a779;
+}
+
+
+.text-left,
+.text-left li,
+.text-left h2,
+.text-left h3 {
+text-align: left;
+color: #633c17;
+}
+
+.text-center {
+    text-align: center;
+    color: #633c17;
+}
+
+
+#requisitos h2,
+#requisitos h3 {
+    color: #633c17;
+
+}
+
+.chocolate-1 img {
+    height: 200px;
+}
+
+.navbar-brand {
+    color:  #b8a779;
+    font-family: 'Pacifico', cursive;  
+    text-align: left;  
+}
+
+
+#cabecalho .nav .nav-link, .navbar-brand:hover, .nav-cardapio .nav-link.active:hover {
+    color: #b8a779;
+}
+
+.navbar-toggler {
+    background-color: #e3e3e3;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+    color: #633c17;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color: #000009;
+}
+
+.text-colored {
+    color: #633c17;
+}
+
+.nav-cardapio .nav-link.active, #fale-conosco button {
+    background-color: #633c17;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.footerIMG {
+    position: relative;
+    width: 100%;
+}
+
+.error {
+    color: red;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    .footerIMG {
+        max-width: 100%;
+    }
+}

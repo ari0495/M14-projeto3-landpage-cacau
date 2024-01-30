@@ -1,0 +1,447 @@
+<html lang="pt-BR"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&amp;family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+    
+    <title>Chocolate Delicia e Cafeteria</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-2" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">
+                <img class="logo" src="https://cdn.pixabay.com/photo/2018/03/12/13/14/cocoa-3219616_640.png" alt=""><br> Delicias Cacau
+            </h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-chocolate" class="nav-link active">
+                            <i class="bi bi-house-door me-1"></i>
+                            Visão Geral
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-cacau" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Sobre o Cacau</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardápio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="sobre-o-chocolate" data-bs-smooth-scroll="true">
+        <section id="sobre-o-chocolate" class="bg-marron">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="col-md-12">                    
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img class="d-block w-100 h-50" src="https://cdn.pixabay.com/photo/2015/03/02/15/58/chocolates-656087_1280.jpg" alt="Diveros Bombons">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100 h-50" src="https://cdn.pixabay.com/photo/2017/03/27/14/14/coffee-2179009_1280.jpg" alt="Xicará de achocolatado">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100 h-50" src="https://cdn.pixabay.com/photo/2013/09/18/18/24/chocolate-183543_1280.jpg" alt="Barra de Chocolate">
+                            </div>
+                        </div>                    
+                </div>
+                <button type="button" data-bs-target="#carousel" class="carousel-control-prev" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" data-bs-target="#carousel" class="carousel-control-next" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" class=""></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5" id="cor-de-fundo2">
+                <div class="container">
+                    <div class="row pt-5 pb-5"  id="cor-de-fundo1">
+                        <div class="col-md-6">
+                            <img src="https://cdn.pixabay.com/photo/2010/12/13/09/56/chocolate-1934_1280.jpg" class="d-block w-100 rounded" alt="Chocolate Derretido">
+                        </div>
+                        <div class="col-md-6 mt-3 mt-md-0">
+                            <h1 class="text-left text-center section-title pt-4">Chocolate</h1>
+                                <h5 class="pt-2 text-left">
+                                Desde <strong>1900</strong> a.C., o chocolate tem uma história rica,
+                                Nasceu nas antigas civilizações da América Central, um presente divino.
+                                Era moeda, era ritual, antes de adoçar a língua humana.
+                                Cruzou mares, conquistou paladares, uma doce epifania.</h5>
+                                <h5 class="text-left">Agora, em cada canto do mundo, seu sabor encanta.
+                                De amargo a doce, de sólido a líquido, suas formas são infinitas.
+                                O chocolate, um prazer atemporal, continua a encantar gerações.
+                                </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <section id="sobre-o-cacau" class="pt-5 pb-5 bg-marron" >
+            <div id="cor-de-fundo2">
+                <div class="container"  id="cor-de-fundo1">
+                <div class="row">
+                    <h2 class="section-title text-center pt-4">Do Cacau ao Tablete</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="https://cdn.pixabay.com/photo/2016/07/20/07/06/cocoa-1529746_1280.jpg" alt="Fruto de Cacau no Pe">
+                        <h3 class="section-title text-colored fs-4 text-center">Cacaueiro</h3>
+                        <ul class="text-left">
+                            <p><li>
+                                O cacau, famoso por sua doce polpa e sementes que são a base do chocolate, é altamente valorizado. Ele traz inúmeros benefícios para a saúde, incluindo propriedades anti-inflamatórias, antioxidantes e protetoras do coração. Quanto mais cacau um produto contém, mais saudável ele é. O Brasil é um dos líderes na produção de cacau, com a Bahia e o Pará sendo os principais estados produtores.
+                            </li></p>  
+                            <p><li>
+                                Um pé de cacau leva cerca de dois anos para começar a produzir após o plantio
+                            </li></p>
+                            <p><li>
+                                A colheita do fruto pode variar entre 140 a 205 dias
+                            </li></p>                                                      
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded mb-2" src="https://cdn.pixabay.com/photo/2019/02/14/07/26/cacao-3995995_1280.jpg" alt="Grãos de Cacau Fermentado">
+                        <h3 class="section-title text-colored fs-4 text-center">Fermentação</h3>
+                        <ul class="text-left">
+                            <p>
+                                <li>
+                                    A fermentação inicia a criação do sabor e aroma do cacau. As amêndoas de cacau são fermentadas em dornas de madeira, transformando o interior das amêndoas. Este processo é auxiliado por várias reviravoltas e depende da variedade do cacau. Após a fermentação, o cacau é levado para secar.
+                                </li>
+                            </p>
+                            <p>
+                                <li>
+                                    Após colhido e quebrado no campo, o cacau mole segue para a casa de fermentação. O cacau fica de cinco a sete dias fazendo esse processo. A fermentação é importantíssima para se ter qualidade da amêndoa.
+                                </li>
+                            </p>
+                            <p>
+                                <li class="pb-4">
+                                    Após a fermentação do cacau, começa o processo de secagem, que dura entre 18 e 20 dias.
+                                </li>
+                            </p>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 chocolate-1">
+                        <img class="d-block w-100 rounded mb-2" src="https://cdn.pixabay.com/photo/2019/02/18/17/36/pralines-4004932_1280.jpg" alt="Grãos de Cacau Fermentado">
+                        <h3 class="section-title text-colored fs-4 text-center">Chocolate</h3>
+                        <ul class="text-left">
+                            <p>
+                                <li>
+                                    O cacau, colhido e fermentado, inicia a jornada do chocolate.
+                                    Transformado em massa, o cacau revela seu sabor e aroma.
+                                    Adiciona-se açúcar, leite e manteiga de cacau, a receita se forma.
+                                    Conchagem e têmpera, processos que a textura normatizam.
+                                    Moldado e resfriado, o chocolate ganha sua forma final.
+                                    Do amargo ao doce, do sólido ao líquido, suas formas são infinitas.
+                                    Assim, o chocolate, um prazer atemporal, continua a encantar gerações.
+                                </li>
+                            </p>
+                            <p>
+                                <li>
+                                    <strong>Chocolate</strong> ao leite
+                                </li>
+                                <li>
+                                    <strong>Chocolate</strong> meio amargo
+                                </li>
+                                <li>
+                                    <strong>Chocolate</strong> amargo
+                                </li>
+                                <li>
+                                    <strong>Chocolate</strong> Branco
+                                </li>
+                            </p>                            
+                        </ul>
+                    </div>
+                </div>
+                </div>
+        </div>
+        </section>
+        <section id="cardápio" class="pt-5 pb-5 bg-marron">
+        <div class="container" id="cor-de-fundo3">
+            <div class="row">
+                <h2 class="section-title text-center mb-5 text-white">Tipos de <span class="text-colored">Chocolate</span></h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-cardapio" role="tablist">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#ao-leite" class="fw-bold text-start nav-link text-colored active" aria-selected="true" role="tab">Ao Leite</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#meio-amargo" class="fw-bold text-start nav-link text-colored" aria-selected="false" tabindex="-1" role="tab">Meio Amargo</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#amargo" class="fw-bold text-start nav-link text-colored" aria-selected="false" tabindex="-1" role="tab">Amargo</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#branco" class="fw-bold text-start nav-link text-colored" aria-selected="false" tabindex="-1" role="tab">Branco</button>
+                    </nav>
+                </aside  id="cor-de-fundo1">
+                <div class="col-md-10" id="cor-de-fundo1">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="ao-leite" role="tabpanel">
+                            <div class="row"  id="cor-de-fundo1">
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/10/17/21/40/food-993503_1280.jpg" alt="Torre de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Torre de Chocolate ao Leite</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/11/22/18/52/cake-1850011_1280.jpg" alt="Musse de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Musse de Chocolate ao Leite</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/02/18/19/06/chocolate-cake-3163115_960_720.jpg" alt="Bolo de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Bolo de Chocolate ao Leite</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/04/17/19/16/chocolate-1335353_1280.jpg" alt="Barra de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Barra de Chocolate ao Leite</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/11/23/11/57/hot-chocolate-1058197_1280.jpg" alt="Bebida de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Bebida de Chocolate ao Leite</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2020/10/14/04/16/candies-5653251_1280.jpg" alt="Bombons de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Bombons de Chocolate ao Leite</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane" id="meio-amargo" role="tabpanel">
+                            <div class="row"  id="cor-de-fundo1">
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/12/21/16/24/chocolate-truffles-8462167_1280.jpg" alt="Brigadeiro de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Brigadeiro de Chocolate</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>                                    
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/01/28/10/02/ferrero-rocher-cake-3960005_1280.jpg" alt="Bolo de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Bolo de Chocolate</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2013/09/18/18/24/chocolate-183543_1280.jpg" alt="Barra de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Barra de Chocolate</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/10/05/07/01/cocoa-4527164_960_720.jpg" alt="Bebida de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Bebida de Chocolate</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/06/27/10/17/praline-3501221_960_720.jpg" alt="Bombons de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Bombons de Chocolate</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane" id="amargo" role="tabpanel">
+                            <div class="row"  id="cor-de-fundo1">
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/09/26/06/14/cooffe-958696_1280.jpg" alt="Degustação de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Degustação de Chocolate ao Leite</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/07/31/16/27/cheesecake-1559403_1280.jpg" alt="Musse de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Musse de Chocolate</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2014/10/13/16/11/cake-486874_1280.jpg" alt="Bolo de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Bolo de Chocolate</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/08/01/02/10/dark-2562840_1280.jpg" alt="Barra de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Barra de Chocolate</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/04/01/20/05/ice-cream-702938_1280.jpg" alt="Bebida de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Bebida de Chocolate</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2020/10/14/04/16/candies-5653251_1280.jpg" alt="Bombons de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Bombons de Chocolate</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                            </div>                                
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane" id="branco" role="tabpanel">
+                            <div class="row"  id="cor-de-fundo1">
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/08/29/20/47/truffles-2694845_1280.jpg" alt="Torre de chocolate Branco">
+                                    <h5 class="fw-bold mt-2 text-center">Doce com Chocolate Branco</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/11/29/11/38/cake-1869227_1280.jpg" alt="Musse de chocolate Branco">
+                                    <h5 class="fw-bold mt-2 text-center">Musse de Chocolate Branco</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/10/03/20/27/isolated-1712771_1280.png" alt="Bolo de chocolate Branco">
+                                    <h5 class="fw-bold mt-2 text-center">Bolo de Chocolate Branco</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/05/22/19/57/chocolate-3422315_1280.jpg" alt="Barra de chocolate">
+                                    <h5 class="fw-bold mt-2 text-center">Barra de Chocolate Branco</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2019/11/03/14/32/milk-4598829_1280.jpg" alt="Bebida de chocolate Branco">
+                                    <h5 class="fw-bold mt-2 text-center">Bebida de Chocolate Branco</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                                <div class="col-md-4 p-4">
+                                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2024/01/10/23/50/chocolate-8500550_1280.jpg" alt="Bombons de chocolate Branco">
+                                    <h5 class="fw-bold mt-2 text-center">Bombons de Chocolate Branco</h5>
+                                    <p class="text-left">
+                                    </p>
+                                </div>
+                            </div>                                
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5 cor-de-fundo">
+            <div class="container">
+                <div class="row"  id="cor-de-fundo1">
+                    <h2 class="section-title text-center text-white"><span class="text-colored">Peça o seu agora</span></h2>
+                </div>
+                <div class="row p-5"  id="cor-de-fundo1">
+                    <div class="col-md-7 mb-5">
+                        <form id="meuFormulario">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control nome" required="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control email" required="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (Opcional)</label>
+                                <input type="tel" id="telefone" class="form-control telefone" required="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                <div class="col-md-5 p-5">
+                    <div class="row"  id="cor-de-fundo1">
+                        <h3 class="section-title fs-4 text-colored pt-5">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="https://www.twitch.tv/rockstargames">
+                                    <i class="bi bi-twitch text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-3">
+                                <a href="https://www.instagram.com/rockstargames/">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-3">
+                                <a href="https://twitter.com/rockstargames">
+                                    <i class="bi bi-twitter text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-3 me-3">
+                                <a href="https://www.youtube.com/rockstargames">
+                                    <i class="bi bi-youtube text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="https://www.facebook.com/rockstargames">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h3>
+                        <p class="text-white">
+                            Rua HTML - 
+                            São Paulo - 
+                            SP - 
+                            Brasil
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./aquivos js/jquery-3.7.1.min.js"></script>
+    <script src="./aquivos js/jquery.mask.min.js"></script>
+    <script src="./aquivos js/jquery.validate.min.js"></script>
+    <script src="./aquivos js/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+
+</body></html>
